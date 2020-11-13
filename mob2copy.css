@@ -1,0 +1,122 @@
+body, html{
+    margin: 0;
+    height: 100vh;
+    background:linear-gradient(270deg, #291870 0%, rgba(185, 205, 221, 0.808) 100%);
+
+}
+.Mob2Container{
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-content: center;
+   margin: 0px ;  
+   width: 100%;   
+   left: 0px;
+   top: 100px;   
+  
+}
+#contactinfo{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 2em;
+}
+
+#contactintro{
+  
+  color:midnightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2vw;
+  text-align: left;
+  padding: .5em;
+  
+}
+
+#icblogo{
+  min-width: 30px;
+  background-size: cover;  
+  background-position: center;
+  max-width: 50px;
+  border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+}
+
+#xerobadge{
+  min-width: 30px;
+  background-size: cover;  
+  background-position: center;
+  max-width: 50px;
+  border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+}
+
+#sagebadge{
+  min-width: 30px;
+  background-size: cover;  
+  background-position: center;
+  max-width:50px;
+  border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+}
+
+#qblogo{
+  min-width: 30px;
+  background-size: cover;  
+  background-position: center;
+  max-width: 50px;
+  border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+
+}
+#headerpic{
+  width:60%;
+  max-width: 1000px;
+  background-position: center;
+}
+
+#centerpic{
+
+  width: 100%;
+  max-width: 1000px;
+  background-position: center;
+}
+
+#article{
+  border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  max-width: 1000px;
+}
+@media(max-width:601px){
+  #sagebadge,#qblogo,#xerobadge,#icblogo,#cloudlogo{
+    max-width: 50px;    
+      }      
+}
+#cloudlogo{
+  padding-top: 10px;
+ max-width:100px;
+}
+.logopanal{
+  max-width: 300px;
+ width: 50%;
+}
+.productsbar:active{
+    opacity: 1;
+}
+#productbar:hover{
+  opacity: 1;
+  background-color: orange;
+}
+.servicepanel,h3{
+  color:white;
+  font-size: 2vw;
+  font-family: inherit;
+  text-align: left;
+}
+/*.page{
+  height: 100vh;
+}*/
