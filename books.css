@@ -108,16 +108,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 /* My Panel settings */
-.w3-panel{
-  border-bottom-right-radius: 10%;
-  border-top-left-radius: 10%;
- 
-}
+
 
 .w3-panel3{
-  padding:0.01em 0px; 
+  padding:0.01em 0px; width:80%; 
 }
-.w3-container,.w3-panel2{padding:0.01em 16px}.w3-panel{ margin-top:0px;margin-bottom:0px; border: double 5px white;box-shadow:  5px 5px 10px midnightblue;}
+.w3-container,.w3-panel2{padding:0.01em 16px}.w3-panel{ margin-top:0px;margin-bottom:0px; border: double 5px white;box-shadow:  5px 5px 10px midnightblue; border-bottom-right-radius: 10%;
+  border-top-left-radius: 10%;}
 .w3-panel2{ margin-top:16px;margin-bottom:16px; border-bottom: double 5px white;box-shadow:  5px 5px 10px midnightblue;}
 .w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
 .w3-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}

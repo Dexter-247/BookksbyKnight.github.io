@@ -16,23 +16,23 @@ body, html{
   
 }
 #contactinfo{
+  
   color:white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1vw;
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 2em;
+  font-size: 1.1vw;
+  padding: 3em;
+  padding-top: 3em;
+ 
+  
 }
 
 #contactintro{
-  
+  width:60% ;
   color:midnightblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.2vw;
-  text-align: left;
-  padding: .5em;
+  font-size: 1.2em;
+  text-align: center;
+ vertical-align: middle;
   
 }
 
@@ -93,16 +93,30 @@ body, html{
 }
 @media(max-width:601px){
   #sagebadge,#qblogo,#xerobadge,#icblogo,#cloudlogo{
-    max-width: 50px;    
-      }      
+    max-width: 50px; }
+  
+     #titleHead{
+       font-size: 9vw; }
+#contactintro{
+  font-size:.95em;
 }
+
+   
+      }   
+
+#contactinfo:hover
+{
+font-size:medium;
+}
+      
+
 #cloudlogo{
   padding-top: 10px;
  max-width:100px;
 }
-.logopanal{
-  max-width: 300px;
- width: 50%;
+#logopanel{
+  float: right;
+  
 }
 .productsbar:active{
     opacity: 1;

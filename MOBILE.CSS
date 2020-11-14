@@ -51,8 +51,9 @@ top: 0px;
  color:midnightblue;
  
  font-size: 5vw;
+
  text-align:center;
- /* */ padding-top: 30px;
+ /* */ padding-top: 1em;
  padding-left: 1em;
  letter-spacing: 2px;
  text-shadow: 2px 2px 5px white;
@@ -92,9 +93,10 @@ border-radius: 15px;
   justify-content: center;
   align-content: center;
   background-color: orange;
-  height: 10vw;
-  padding: 5px;
   
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%; 
   border-radius: 1rem;  
 }
 
@@ -189,11 +191,9 @@ justify-content: space-between;
 }
 
 .half2{
- 
- width: 80%;
-  text-align: center;  
-  word-wrap: normal;
-  font-size: 1em;
+ min-width: 300px; 
+ width: 90%;
+  
    background-color: #bfe0f3;
 
 }
