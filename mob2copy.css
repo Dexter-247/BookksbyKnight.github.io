@@ -27,7 +27,7 @@ body, html{
 }
 
 #contactintro{
-  width:60% ;
+  width:80% ;
   color:midnightblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2em;
@@ -78,6 +78,7 @@ body, html{
 
   width: 100%;
   max-width: 1000px;
+  min-width: 90%;
   background-position: center;
 }
 
