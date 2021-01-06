@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="hone-nav.css">
+<link rel="stylesheet" href="MOBILE.css">
+<link rel="stylesheet" href="home.css">  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+    <title>Nav</title>
+</head>
+<body>
+
+    
+
+<div class="container-home">
+
+            <header class="header home-header ">
+        
+                 <img  src="cloudlogo.png"  id="cloudlogo">
+                 <img  src="cloudlogo.png"  id="cloudlogo-2">
+                 
+                <h1  id="titleHead">Books by Knight <span class="Knight-logo">&#9816</span> </h1> 
+                <div class="slogan">
+                <p> <span>Cloud Accounting .... Your virtual bookkeepers</span></p>
+                </div>
+            </header>
+        
+</div>
+
+<!--Header and container end--->
+
+<div class="container-home">
+
+    <!---Menu for large Screens-->
+    <nav class="test-nav site-nav row-nav">
+
+
+       
+        <div class="tab"><!--Start of Column -->
+            <div class="link"></div><a href="" class="link"> <i class="fa fa-home site-nav--icon"></i>Home</a>  </div>            
+       
+       
+
+        
+
+           
+        <div class="tab">
+            <div class="link"><a  class="link" href=""><i class="fa fa-info site-nav--icon"></i>About</a>    </div>
+        </div>
+        
+       
+
+
+
+
+        <div class="tab">
+            <div class="link"> <a href="" class="link" ><i class="fa fa-pencil site-nav--icon"></i>Blog</a>      </div>
+        </div>
+
+        <div class="tab">
+            <div class="link">  <a href=""  class="link" ><i class="fa fa-usd site-nav--icon"></i>Pricing</a>   </div>
+        </div>
+
+        <div class="tab">
+            <div class="link"> <a href=""   class="link" ><i class="fa fa-envelope site-nav--icon"></i>Contact</a> </div>
+        </div>
+
+        <div class="menu-toggle">
+
+        <div class="hamburger hamburger-1"></div>
+        <div class="hamburger hamburger-2"></div>
+        <div class="hamburger hamburger-3"></div>
+
+         </div>
+
+
+ </div><!--End of Column-->
+
+    </nav>
+<!--Menu for small screens-->
+
+
+<nav class="mobile-nav  mobile-row-nav">
+
+
+       
+    <div class="tab"><!--Start of Column -->
+
+
+        <div class="link"></div><a href="" class="link"> <i class="fa fa-home site-nav--icon"></i>Home</a>  </div>            
+   
+   
+
+    
+
+       
+    <div class="tab">
+        <div class="link"><a  class="link" href=""><i class="fa fa-info site-nav--icon"></i>About</a>    </div>
+    </div>
+    
+   
+
+
+
+
+    <div class="tab">
+        <div class="link"> <a href="" class="link" ><i class="fa fa-pencil site-nav--icon"></i>Blog</a>      </div>
+    </div>
+
+    <div class="tab">
+        <div class="link">  <a href=""  class="link" ><i class="fa fa-usd site-nav--icon"></i>Pricing</a>   </div>
+    </div>
+
+    <div class="tab">
+        <div class="link"> <a href=""   class="link" ><i class="fa fa-envelope site-nav--icon"></i>Contact</a> </div>
+    </div>
+
+   <!-- <div class="menu-toggle">
+
+    <div class="hamburger hamburger-1"></div>
+    <div class="hamburger hamburger-2"></div>
+    <div class="hamburger hamburger-3"></div>
+
+     </div>-->
+
+
+</div><!--End of Column-->
+
+</nav>
+
+
+    
+
+</div>
+
+
+<section class="main-content  container-home">
+    <div class="section--row  home-panel  ">
+    
+        <div class="home-intro  col-home-1">
+    
+    <h1><b>'Books By Knight'</b></h1> 
+            <p  id="para-intro"> 
+                I have over 20 years experience in Bookkeeping and accounting.
+                I believe the accounting experience should be
+                smooth, efficient and affordable .
+                <br>        
+                          Julie .  </p>
+    
+        </div>
+    
+        <div class="home-intro  col-home-2"> 
+            <h1>Services</h1>
+          <p id="para-intro"> 
+            <ul>
+                <li>Self Assesment</li>
+        <li>Bookkeeping</li>
+        <li>Small and medium business </li>
+           <ul><li>Sole Traders</li>
+              <li>Online retailers</li>
+           </ul>   
+        </li>
+        <li>Payroll</li>
+        <li>Construction Industy Scheme (CIS)</li>
+      </ul>
+       </p>
+        </div>
+    
+        <div class="home-intro  col-home-3"> 
+            <h1>Products</h1>
+            <p id="para-intro">
+                <img  src="ICB-Logo-circle.png"  id="icblogo" style="width:20%">
+                                    <img  src="Xero-logo-hires-RGB.png"  id="xerobadge" style="width:20%">
+                                    <img src="sage.jpeg" id="sagebadge" style="width:20%">
+                                    <img src="Quickbooks-Logo-1-150x150.png"  id="qblogo" style="width: 20%;">
+            
+                     </p>
+        </div>
+    
+    
+    </div> 
+    
+    
+    </section>
+
+ <script>
+$('.menu-toggle').click(function() {
+  
+  $('.mobile-nav').toggleClass('mobile-nav--open',500);
+  
+  $(this).toggleClass('open');
+  
+})
+
+
+
+
+    </script>
+    
+</body>
+</html>

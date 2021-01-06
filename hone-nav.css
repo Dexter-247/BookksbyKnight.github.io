@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+.row-nav{
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
+.site-nav--icon{
+    padding: .5rem;
+}
+
+.site-nav{
+    position: relative;
+    background-color: paleturquoise;
+}
+
+
+.link{
+margin: 0 auto;
+    padding: 0 .5rem;
+    font-size: 1em;
+    
+   text-transform: uppercase;
+   color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.tab{
+    
+   background-color: midnightblue;   
+    
+    border-radius: 0 1rem 0 0;
+    border-bottom: white 2px double;
+}
+
+.menu-toggle{
+    display: flex;
+    flex-direction: column;
+     cursor: pointer;   
+    position: absolute;
+    right: 30px;
+    justify-self: center;
+    align-self: center;
+   
+    
+}
+
+
+.hamburger{
+margin-bottom: 4px;
+    width: 10px;
+   max-height:  4px;
+   border-radius: .2rem;
+  background-color: rebeccapurple;
+}
+
+.site-nav--open{
+    flex-direction: column;
+
+}
+   
+.open .hamburger-2{
+    transition: ease-in-out 1000ms;
+    transform:translateY(8px) rotate(45deg);
+}
+.open .hamburger-1{
+    transition: ease-in-out 1000ms;
+    opacity: 0;
+}
+.open .hamburger-3{
+    transition: ease-in-out 1000ms;
+    transform:translateY(0px) rotate(-45deg);
+}
+
+
+.menu-toggle:focus,
+.menu-toggle:hover{
+
+    color:blue;
+}
+
+.mobile-nav{
+ display: block;   
+ opacity: 0;
+ height: 0;
+
+}
+
+.mobile-nav--open{
+    z-index: 10;
+    opacity: 1;
+    transition: opacity ease-in-out 500ms;
+    visibility: visible;
+    height: auto;
+    
+}
+
+.mobile-row-nav{
+    color:white;
+}
