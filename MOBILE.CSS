@@ -262,10 +262,9 @@ align-items: center;
   
 }
 
-.active, .collapsible:hover {
+.active, .collapsible:hover,.collapsible:focus {
   background:cadetblue;
-  font-size: larger;
-  
+  font-size: larger;  
   
 }
 

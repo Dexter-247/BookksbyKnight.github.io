@@ -37,21 +37,30 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: space-between;
+}
+.home-intro{
+    color:midnightblue;
 }
 
 .col-home-1{
+    margin: 0 auto;
     width:85%;
     margin-bottom: 1rem;
 }
 
-.col-home-2,.col-home-3{
+.col-home-2{
+    margin: 0 auto;
     width: 85%;
     margin-bottom: 1rem;
 }
 
-
+.col-home-3{
+    margin: 0 auto;
+    width:50%;
+    margin-bottom: 1rem; 
+}
 .nav-home{
     
 width: 100%;
