@@ -2,9 +2,8 @@
     box-sizing: border-box;
 }
 
-body,html{
-    
-        margin: 0;
+body,html{    
+        margin:0 auto;
         
          font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
