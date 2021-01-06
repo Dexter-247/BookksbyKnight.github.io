@@ -53,13 +53,23 @@ img{
     margin-bottom: 1rem;
 }
 
+
 .nav-home{
+
+    margin: 0  auto;
+    padding: 0;   
+
+
     display: none;
     visibility: hidden;
     background: midnightblue;
 }
 
 .nav-mobile{
+    margin: 0  auto;
+    padding: 0;
+    
+
     
     background: midnightblue;
     
