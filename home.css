@@ -53,6 +53,7 @@ img{
 
 
 .nav-home{
+    
 width: 100%;
     margin: 0  auto;
     padding: 0;   
@@ -64,6 +65,7 @@ width: 100%;
 }
 
 .nav-mobile{
+   
     margin: 0  auto;
     padding: 0;
     
@@ -90,13 +92,32 @@ margin-right: 10px;
     
 }
 
+.toggle-menu{    
+    
+        padding: 1em;
+        position: absolute;
+        top:0;
+        right:0;
+        cursor: pointer; 
+   
+    border:orange 2px solid;
+}
+
+.hamburger{  
+   
+    color:red;
+    
+    width:30px;
+    height: 10px;
+
+}
 .toggle-menu:focus,
 .toggle-menu:hover{
     background-color: cadetblue;
 }
 
 .nav-link{
-    
+
     margin: 0 auto;    
     letter-spacing: .05rem;
     font-size: .8rem;
@@ -206,13 +227,12 @@ margin-right: 10px;
 
 
 .toggle{
-
    
     color: white;
 }
 
 .toggle-tab{
-    display: none;
+   
     padding: .5em 1em ;
     align-self: center;
 
