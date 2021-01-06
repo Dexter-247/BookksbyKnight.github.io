@@ -53,7 +53,7 @@ img{
 
 
 .nav-home{
-
+width: 100%;
     margin: 0  auto;
     padding: 0;   
 
@@ -96,8 +96,8 @@ margin-right: 10px;
 }
 
 .nav-link{
-    margin: 0 auto;
     
+    margin: 0 auto;    
     letter-spacing: .05rem;
     font-size: .8rem;
    border: orange 2px solid;
@@ -111,8 +111,9 @@ margin-right: 10px;
  
     color:white;
     font-size: 5vw;
+}
 
-}#icblogo,#xerobadge,#sagebadge,#qblogo{
+#icblogo,#xerobadge,#sagebadge,#qblogo{
     min-width: 30px;
     background-size: cover;  
     background-position: center;
@@ -175,8 +176,8 @@ margin-right: 10px;
 }
 
 .main-content{
-    padding: 1em .5em;
-   
+
+    padding: 1em .5em;   
     background: linear-gradient(180deg, #291870 0%, rgba(71, 121, 196, 0.74) 100%);
 }
 
@@ -200,6 +201,8 @@ margin-right: 10px;
     }             
 
 }
+
+
 
 
 .toggle{
