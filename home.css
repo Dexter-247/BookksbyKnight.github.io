@@ -73,6 +73,8 @@ img{
     
 }
 .nav-tab{
+    
+    
 margin-top: .15em;
 margin-right: 10px;
     padding: .5em 1em;
@@ -94,8 +96,11 @@ margin-right: 10px;
 }
 
 .nav-link{
+    margin: 0 auto;
+    
     letter-spacing: .05rem;
     font-size: .8rem;
+   border: orange 2px solid;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -196,6 +201,7 @@ margin-right: 10px;
 
 }
 
+
 .toggle{
 
    
@@ -203,6 +209,7 @@ margin-right: 10px;
 }
 
 .toggle-tab{
+    display: none;
     padding: .5em 1em ;
     align-self: center;
 
