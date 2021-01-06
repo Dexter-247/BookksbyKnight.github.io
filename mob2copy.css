@@ -4,6 +4,8 @@ body, html{
     background:linear-gradient(270deg, #291870 0%, rgba(185, 205, 221, 0.808) 100%);
 
 }
+
+/*
 .Mob2Container{
   display: flex;
   flex-direction: column;   
@@ -34,15 +36,17 @@ body, html{
   text-align: center;
  vertical-align: middle;
   
-}
+} */
 
-#icblogo{
+#icblogo,#xerobadge,#sagebadge,#qblogo{
   min-width: 30px;
   background-size: cover;  
   background-position: center;
   max-width: 50px;
   border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
 }
+
+/*
 
 #xerobadge{
   min-width: 30px;
@@ -68,6 +72,8 @@ body, html{
   border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
 
 }
+
+
 #headerpic{
   width:60%;
   max-width: 1000px;
@@ -149,9 +155,9 @@ font-size:medium;
   width:100%;
   display: flex;
   justify-content: center;
-  /*/padding-top: 56.25%; //* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  /*padding-top: 56.25%; //* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) 
 }
 
 /*.page{
   height: 100vh;
-}*/
+}*/*/

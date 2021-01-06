@@ -4,9 +4,9 @@
 
 body,html{
     
-   margin:0 ;
-   padding: 0;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -19,17 +19,16 @@ img{
 
 
 .container-home{
-    margin: 0 auto;
+    margin: 0 10px auto;
     padding: 0;
-    width:98%;
-    min-width: 401px;
+    width:100%;
+    
 }
 .home-row{
-    margin: 0;
-    padding: 0;
+   padding-top: 10px;
     width:100%;    
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     
 }
@@ -100,7 +99,16 @@ margin-right: 10px;
     color:white;
     font-size: 5vw;
 
-}
+}#icblogo,#xerobadge,#sagebadge,#qblogo{
+    min-width: 30px;
+    background-size: cover;  
+    background-position: center;
+    max-width: 50px;
+    border:white double 5px; border-bottom-right-radius: 80%;border-top-left-radius: 80%;
+  }
+
+
+
 
 .home-header{
     overflow: hidden;
@@ -152,7 +160,7 @@ margin-right: 10px;
 
 .main-content{
     padding: 1em .5em;
-    margin:0 auto;
+   
     background: linear-gradient(180deg, #291870 0%, rgba(71, 121, 196, 0.74) 100%);
 }
 
@@ -210,14 +218,13 @@ margin-right: 10px;
 
 
 .contact-container {
+    margin: 0 10px auto;
+    padding: 0;
+    width:100%;
     background-image: url('BlueHue5050.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    margin: 0 auto;
-    padding: 0;
-    width:98%;
-    min-width: 401px;
+    position: relative;    
     
   padding-bottom: 80%; /* 8:5 Aspect Ratio */
   
