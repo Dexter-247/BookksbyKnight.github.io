@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+
+
+    margin: 0 auto;
+    margin-top: 0 auto;
+}
+
+
+
+.toggle-container{
+
+    margin: 0 auto;
+    background-color: skyblue;
+    width: 1000px;
+    height: 500px;   
+    
+}
+
+.toggle-row{
+
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: rosybrown;
+}
+
+.menu-toggle{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+
+
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    position: absolute;
+    right:50px;
+    border: saddlebrown 2px solid;
+}
+
+.hamburger{
+  
+   
+    background-color: seashell;
+    width:30px;
+    height: 3px;
+    border-radius: .5rem;
+   
+}
+
+.slice-1,.slice-2{
+    margin-bottom: 6px;
+   
+
+}
+
+.slice-2:focus,
+.slice-2:hover{
+    opacity:1;
+     animation-name: menu-spin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.menu-toggle:focus, 
+.menu-toggle:hover{
+border-radius: 100%;
+transform: rotate(90deg);
+
+}
+
+@keyframes  menu-spin{
+
+    0%{ opacity:1;}
+    25%{opacity: .75;}
+    50%{opacity: .50;}
+    75%{opacity: .25;}
+    100%{opacity: 0;}
+        
+    
+}
+
+.nav-menu{
+    
+    background-color: slategrey;
+
+}
+
+
+.menu-tab{
+text-align: center;    
+border-bottom: white 2px double;    
+background-color: steelblue;
+padding: .5em;
+
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+     text-transform: uppercase;
+     padding: .5em;
+}
