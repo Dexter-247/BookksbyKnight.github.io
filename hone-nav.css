@@ -10,7 +10,7 @@ body,html{
 .row-nav{
     display: flex;
     
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .site-nav--icon{
@@ -24,7 +24,7 @@ body,html{
 
 
 .link{
-margin: 0 auto;
+    margin: 0 auto;
     padding: 0 .5rem;
     font-size: 1em;
     
@@ -37,7 +37,7 @@ margin: 0 auto;
 .tab{
     
    background-color: midnightblue;   
-    
+    border: orange 2px solid;
     border-radius: 0 1rem 0 0;
     border-bottom: white 2px double;
 }
@@ -69,16 +69,16 @@ margin-bottom: 4px;
 }
    
 .open .hamburger-2{
-    transition: ease-in-out 1000ms;
-    transform:translateY(8px) rotate(45deg);
+    transition: ease-in-out 500ms;
+    transform:translateY(2px) rotate(45deg);
 }
 .open .hamburger-1{
-    transition: ease-in-out 1000ms;
+    transition: ease-in-out 500ms;
     opacity: 0;
 }
 .open .hamburger-3{
-    transition: ease-in-out 1000ms;
-    transform:translateY(0px) rotate(-45deg);
+    transition: ease-in-out 500ms;
+    transform:translateY(-6px) rotate(-45deg);
 }
 
 
@@ -89,21 +89,26 @@ margin-bottom: 4px;
 }
 
 .mobile-nav{
- display: block;   
+ 
  opacity: 0;
  height: 0;
 
 }
 
 .mobile-nav--open{
+display: flex;
+flex-direction: column;
+text-align: center;   
     z-index: 10;
     opacity: 1;
-    transition: opacity ease-in-out 500ms;
-    visibility: visible;
+    transition:all ease-in-out 500ms;
+    
     height: auto;
+   
     
 }
 
 .mobile-row-nav{
     color:white;
 }
+
