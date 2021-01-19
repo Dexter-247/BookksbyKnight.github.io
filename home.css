@@ -284,7 +284,13 @@ margin-right: 10px;
 }
 
 .footer-home{
+    
     background-color: midnightblue;
     height: 200px;
+    color: white;
+}
+
+.footer-1,.footer-2,.footer-3{
+    border-right: white 2px solid;
 }
 

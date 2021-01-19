@@ -23,7 +23,7 @@
 .toggle-row{
 
     display:flex; 
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -50,8 +50,7 @@
     border: saddlebrown 2px solid;
 }
 
-.hamburger{
-  
+.hamburger{ 
    
     background-color: seashell;
     width:30px;
@@ -93,7 +92,8 @@ transform: rotate(90deg);
 }
 
 .nav-menu{
-    
+   opacity: 0;
+   height: 0px;
     background-color: slategrey;
 
 }
