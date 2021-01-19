@@ -10,6 +10,9 @@ body,html{
 h1{
     text-align: center;
 }
+h3{
+    text-align: left;
+}
 img{
     max-width: 100%;
 }
@@ -288,9 +291,26 @@ margin-right: 10px;
     background-color: midnightblue;
     height: 200px;
     color: white;
+    font-size: 10px;
 }
 
-.footer-1,.footer-2,.footer-3{
+.footer-1,.footer-2{
     border-right: white 2px solid;
+    padding: .5em;
+    margin: 5px auto;
+    width: 30%;
+}
+.footer-3{
+    padding: .5em;
+    margin: 5px auto;
+    width:30%;
 }
 
+
+.home-footer{
+    padding-top: 10px;
+    width:100%;    
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
