@@ -308,6 +308,8 @@ margin-right: 10px;
 
 
 .home-footer{
+    margin: 0 auto;
+    max-width: 1000px;
     padding-top: 10px;
     width:100%;    
     display: flex;
