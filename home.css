@@ -18,6 +18,9 @@ img{
     max-width: 100%;
 }
 
+i{
+    padding-right: .25em;
+}
 
 
 .container-home{
@@ -287,6 +290,18 @@ margin-right: 10px;
 
 }
 
+.articles{
+
+    width: 30%;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.article-title{
+    padding-left: 1rem;
+    text-align: left;
+}
+
 .footer-home{
     
     background-color: midnightblue;
@@ -334,7 +349,7 @@ margin-right: 10px;
 }
 .footnote{
 
-    padding: 50px 0;
+    padding: 2em 0;
     color:white;
     margin: 0 auto;
     font-size: 10px;
