@@ -11,8 +11,8 @@ h1{
     text-align: center;
 }
 h3{
-    text-align: left;
-    padding:0 1em;
+    text-align: center;
+    
 }
 img{
     max-width: 100%;
@@ -22,6 +22,9 @@ i{
     padding-right: .25em;
 }
 
+*{
+    outline: red 2px solid;
+}
 
 .container-home{
     margin: 0 auto;
@@ -204,7 +207,7 @@ margin-right: 10px;
 .home-panel{
     
     margin: 0 auto;
-    padding:2em .5em; width: 80%; 
+    padding:2em .5em; width: 90%; 
     background-color:  #bfe0f3;
     border: midnightblue 5px double;
     border-bottom-right-radius: 5rem;
@@ -235,7 +238,10 @@ margin-right: 10px;
     .section--row{
         flex-direction: row;
        
-    }             
+    }     
+   .home-panel{
+       width: 90%;
+   }
 
 }
 
@@ -310,36 +316,42 @@ margin-right: 10px;
     font-size: 10px;
 }
 
-.footer-1,.footer-2{
+.footer-1,.footer-3{
     border-right: white 2px solid;
     padding: .5em;
     margin: 5px auto;
-    width: 30%;
+   /* width: 40%;*/
 }
-.footer-3{
+.footer-2{
     padding: .5em;
     margin: 5px auto;
-    width:40%;
+   /* width:20%;*/
 }
 
 
-.home-footer{
-    margin: 0 auto;
-    max-width: 1000px;
+.home-footer{ 
+   margin: 0 auto;
     padding-top: 10px;
-    width:100%;    
+    width:100%;   
+    max-width:1000px; 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: top;
 }
 .footer-list{
+    
     text-align: left;
     width:95%;
-    padding-right: 1em; 
+   
 }
 
 .footer-list li{
-    padding: 2px 0;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    list-style: none;
+   /* padding: 2px 0;*/
+   line-height: 1.5em;
 }
 
 .footer-link{
