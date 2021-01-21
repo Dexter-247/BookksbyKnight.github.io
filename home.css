@@ -378,6 +378,11 @@ margin-right: 10px;
     text-decoration: none;
     
 }
+
+.mobile-link,.phone-link{
+    text-decoration: none;
+    color:white;
+}
 .footnote{
 
     padding: 2em 0;
