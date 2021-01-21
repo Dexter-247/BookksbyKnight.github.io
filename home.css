@@ -221,7 +221,7 @@ margin-right: 10px;
 }
 
 @media(max-width:440px){
-.col-home-3{
+.col-home-3,.col-home-1,.col-home-2{
     width: 100%;
 }
 }
