@@ -11,7 +11,7 @@ h1{
     text-align: center;
 }
 h3{
-    text-align: center;
+    text-align: left;
     
 }
 img{
@@ -219,7 +219,11 @@ margin-right: 10px;
     background: linear-gradient(180deg, #291870 0%, rgba(71, 121, 196, 0.74) 100%);
 }
 
-
+@media(max-width:440px){
+.col-home-3{
+    width: 100%;
+}
+}
 
 @media(min-width:601px){
 
@@ -317,13 +321,19 @@ margin-right: 10px;
     font-size: 10px;
 }
 
-.footer-terms,.footer-contact{
-    border-right: white 2px solid;
+.footer-terms{
+   
     
     padding: .5rem;
     margin: 5px auto;
    /* width: 40%;*/
 }
+
+.footer-contact{
+    border-right: white 2px solid;
+    padding: .5rem;
+    margin: 5px auto;
+} 
 
 .footer-contact,.footer-terms,.footer-legal{
     width: 100%;
